@@ -10,11 +10,13 @@ import com.bulletinBoard.myapplication.databinding.ActivityMainBinding
 import com.bulletinBoard.myapplication.dialog.helper.DialogConst
 import com.bulletinBoard.myapplication.dialog.helper.DialogHelper
 import com.google.android.material.navigation.NavigationView
+import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     private lateinit var rootElement:ActivityMainBinding
     private val dialogHelper = DialogHelper(this)
+    val mAuth = FirebaseAuth.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

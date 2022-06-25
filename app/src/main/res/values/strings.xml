@@ -22,5 +22,8 @@
     <string name="sign_up_action">Зарегистрироваться</string>
     <string name="sign_in_action">Войти</string>
     <string name="forget_password">Забыли пароль?</string>
+    <string name="sign_up_error">Неудалось зарегистрироваться</string>
+    <string name="send_verification_error">Неудалось отправить email для подтверждения</string>
+    <string name="send_verification_done">На вашу почту отправлена ссылка для авторизации аккаунта</string>
 
 </resources>
