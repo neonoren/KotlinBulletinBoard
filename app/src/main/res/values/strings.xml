@@ -13,6 +13,7 @@
     <string name="ad_sign_out">Выход</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="not_reg">Не авторизован</string>
 
     <!-- Sing Dialog -->
     <string name="email_hint">Email</string>
@@ -23,6 +24,7 @@
     <string name="sign_in_action">Войти</string>
     <string name="forget_password">Забыли пароль?</string>
     <string name="sign_up_error">Неудалось зарегистрироваться</string>
+    <string name="sign_in_error">Неудалось войти</string>
     <string name="send_verification_error">Неудалось отправить email для подтверждения</string>
     <string name="send_verification_done">На вашу почту отправлена ссылка для авторизации аккаунта</string>
 
