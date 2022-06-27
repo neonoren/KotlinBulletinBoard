@@ -5,18 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="170dp"
-    android:background="@android:color/system_accent1_500"
-    tools:targetApi="s">
+    android:background="@color/blue_light">
 
     <ImageView
         android:id="@+id/imAccountImage"
-        android:layout_width="105dp"
-        android:layout_height="108dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <TextView
         android:id="@+id/tvAccountEmail"
@@ -24,7 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/imAccountImage"
         app:layout_constraintTop_toBottomOf="@+id/imAccountImage" />
