@@ -27,5 +27,7 @@
     <string name="sign_in_error">Неудалось войти</string>
     <string name="send_verification_error">Неудалось отправить email для подтверждения</string>
     <string name="send_verification_done">На вашу почту отправлена ссылка для авторизации аккаунта</string>
+    <string name="email_reset_password_was_sent">"Запрос на смену пароля отправлен на почту"</string>
+    <string name="dialog_reset_email_message">"Введите Email для восстановления пароля"</string>
 
 </resources>
